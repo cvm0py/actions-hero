@@ -1,12 +1,8 @@
 name: issue comments
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  issues:
+    types: [opened]
       
 jobs:
   issue_comments:
