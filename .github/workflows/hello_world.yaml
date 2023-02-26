@@ -24,4 +24,10 @@ jobs:
       - name: goodbye world
         run: echo "Goodbye world"
         shell: bash
-    
+     
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lets try new
+        run: echo "Try out"
+        shell: bash
